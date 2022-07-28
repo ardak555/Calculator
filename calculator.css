@@ -1,0 +1,53 @@
+
+.container{
+    width: 500px;
+    height: 700px;
+    border: 1px solid #000000;
+    margin-left: 300px;
+    background-color: rgb(238, 181, 161);
+
+}
+
+.container .display{
+    width: 90%;
+    height: 15%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: lightgray;
+    text-align: right;
+}
+
+.container .keypad{
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    background-color: rgb(192, 209, 162);
+}
+
+.container button .keypad .key{
+    /* width: 87px; */
+    height: 87px;
+    border: 1px solid black;
+    background-color: grey;
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+button{
+    margin: 5px;
+}
+button:hover{
+    background-color: gray;
+    
+}
+
+input{
+    font-size: 72px;
+    color: black;
+    font-weight: 300;
+}
